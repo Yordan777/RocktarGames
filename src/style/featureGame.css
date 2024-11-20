@@ -1,0 +1,22 @@
+.feature{
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-gap: calc(0.72rem * 2);
+    display: grid;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.card-feature {
+    display: flex;
+    flex-flow: column;
+}
+.card-feature-img{
+    animation-play-state: running;
+    aspect-ratio: 64/79;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+    width: 100%;
+}

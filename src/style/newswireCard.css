@@ -1,0 +1,86 @@
+.card-img{
+    aspect-ratio: 2/2;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.card{
+    grid-column: span 2;
+    background: #000;
+    border: solid 1px #282828;
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    transition: transform .2s ease;
+}
+
+.card-content{
+    display: grid;
+    grid-template-columns: repeat(6,minmax(0,1fr));
+    grid-gap : calc(0.75rem *2);
+    margin-bottom : 2rem;
+}    
+.section-cards{
+    display: flex;
+    flex-direction: column;
+}
+.card-txt{
+    padding: 2rem 1.5rem;
+}
+.card-txt h3, p{
+    letter-spacing: -1px;
+}
+.card-txt-p h2{
+    font-size: calc(1.5rem * 22/22);
+    font-weight: 700;
+    line-height: normal;
+}
+.view{
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    line-height: unset;
+    outline: none;
+    
+    position: relative;
+    text-transform: none;
+    z-index: 1;
+    align-self: center;
+    border-radius: 0.25rem;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.view::before{
+    background: #fcaf17;
+    border-radius: 0.25rem;
+    content: "";
+    display: block;
+    transition: all .2s ease;
+    width: calc(100% + 0.2rem);
+    z-index: -1;
+    bottom: 0;
+    height: 4px;
+    left: -0.1rem;
+    position: absolute;
+}
+
+.view:hover{
+    color: #161616;
+    border-radius: 0.25rem;
+}
+.view:hover::before{
+    height: 100%;
+    left: -0.5rem;
+    width: calc(100% + 1rem);
+    background: #fcaf17;
+}
+.pd{
+    padding: 0 35rem 0 35rem;
+}

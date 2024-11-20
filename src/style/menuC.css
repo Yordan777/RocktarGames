@@ -1,0 +1,45 @@
+.menuC-container{
+    flex-grow: 1;
+    overflow: hidden;
+}
+.btn-menuC{
+    align-items: center;
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: calc(21px * .75);
+    font-style: normal;
+    font-weight: 400;
+    gap: calc( 20px * 0.25);
+    height: calc(80px - 6px);
+    justify-content: center;
+    margin-top: 3px;
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn-menuC:hover , .link-menuC:hover{
+    border-bottom: white solid 2px;
+}
+
+.link-menuC{
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    font-size: calc(21px * .75);
+    font-weight: 400;
+    gap: calc( 20px * 0.25);
+    height: calc(80px - 6px);
+    margin-top: 3px;
+    padding: 0 20px;
+    position: relative;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+    white-space: nowrap;
+}
+

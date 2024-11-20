@@ -1,0 +1,31 @@
+.txt-footer, .txt-lenguage{
+    font-size: 20px;
+}
+.txt-lenguage{
+    width: max-content;
+    padding-right: calc(0.05rem + 30px);
+    position: relative;
+}
+.txt-link{
+    font-size: 0.95rem;
+    opacity: .65;
+}
+.icon-globe{
+    font-size: 24px;
+}
+
+.flecha::after{
+    background-image: url("../img/flecha.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 2px;
+    transform: rotate(0deg);
+    transition: transform .3s;
+    width: 24px;
+}
