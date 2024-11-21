@@ -1,4 +1,4 @@
-import "../style/NewswireCard.css";
+import "../style/newswireCard.css";
 import PropTypes from 'prop-types';
 function NewswireCard({txt, title, img, data }) {
   return (
