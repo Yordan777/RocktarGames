@@ -1,5 +1,5 @@
 import NewswireCard from "./NewswireCard"
-import "../style/NewswireCard.css";
+import "../style/newswireCard.css";
 import FeatureGame from "./FeatureGame";
 import GtaVI from '../img/GtaVI.jpg';
 import gtaChopShop from '../img/gtaOnline.jpg';
