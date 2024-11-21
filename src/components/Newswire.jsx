@@ -7,7 +7,7 @@ import gtaPlus from '../img/gtaOnline1.jpg';
 import Trailer1 from '../img/trailer1.jpg';
 import GtaVehicule from '../img/gtaVehicule.jpg';
 import GtaProjectOver from '../img/gtaProjectOver.jpg';
-import GtaV from '../img/gtaV.jpg';
+import GtaV from '../img/GtaV.jpg';
 import GTAOnline2 from '../img/GTAOnline2.jpg';
 import Reddeadredemption2 from '../img/reddeadredemption2.jpg';
 import Reddeadonline from '../img/reddeadonline.jpg';
